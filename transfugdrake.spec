@@ -12,6 +12,7 @@ Group: System/Configuration/Other
 Url: http://svn.mandriva.com/svn/soft/transfugdrake
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
+Requires: migration-assistant
 
 %description
 Transfugdrake is a wizard to migrate documents and settings from
