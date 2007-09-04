@@ -1,6 +1,6 @@
 %define name transfugdrake
-%define version 0.5
-%define release %mkrel 2
+%define version 0.6
+%define release %mkrel 1
 
 Summary: Migration wizard
 Name: %{name}
@@ -22,15 +22,17 @@ Windows to Mandriva Linux.
 %setup -q
 
 %build
+%make
 
 %install
 rm -rf %{buildroot}
-install -d %{buildroot}%{_sbindir}
-install -m755 %{name} %{buildroot}%{_sbindir}/%{name}
+%makeinstall_std
+%find_lang %{name}
 
 %clean
 rm -rf %{buildroot}
 
-%files
+%files -f %{name}.lang
 %defattr(-,root,root)
 %{_sbindir}/%{name}
+%{_prefix}/lib/libDrakX/icons/*.png
