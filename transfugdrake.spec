@@ -1,5 +1,5 @@
 %define name transfugdrake
-%define version 0.6
+%define version 0.7
 %define release %mkrel 1
 
 Summary: Migration wizard
@@ -35,4 +35,5 @@ rm -rf %{buildroot}
 %files -f %{name}.lang
 %defattr(-,root,root)
 %{_sbindir}/%{name}
+%{_prefix}/lib/libDrakX/transfugdrake.pm
 %{_prefix}/lib/libDrakX/icons/*.png
