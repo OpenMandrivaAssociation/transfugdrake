@@ -1,5 +1,5 @@
 %define name transfugdrake
-%define version 0.8
+%define version 0.9
 %define release %mkrel 1
 
 Summary: Migration wizard
