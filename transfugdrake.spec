@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Configuration/Other
 Url: http://svn.mandriva.com/svn/soft/transfugdrake
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: migration-assistant
 
