@@ -1,11 +1,10 @@
 %define name transfugdrake
 %define version 1.4
-%define release %mkrel 1
 
 Summary: Migration wizard
 Name: %{name}
 Version: %{version}
-Release: %{release}
+Release: %mkrel 2
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Configuration/Other
