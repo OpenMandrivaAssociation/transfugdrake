@@ -5,7 +5,7 @@ Summary: Migration wizard
 Name: %{name}
 Version: %{version}
 Release: %mkrel 1
-Source0: %{name}-%{version}.tar.bz2
+Source0: %{name}-%{version}.tar.lzma
 License: GPL
 Group: System/Configuration/Other
 Url: http://svn.mandriva.com/svn/soft/transfugdrake
