@@ -1,5 +1,5 @@
 %define name transfugdrake
-%define version 1.5
+%define version 1.7
 
 Summary: Migration wizard
 Name: %{name}
