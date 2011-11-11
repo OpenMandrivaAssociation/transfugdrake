@@ -4,8 +4,9 @@
 Summary: Migration wizard
 Name: %{name}
 Version: %{version}
-Release: %mkrel 3
+Release: %mkrel 4
 Source0: %{name}-%{version}.tar.lzma
+Patch0: %{name}-1.9.2-l10n-ru.patch
 License: GPL
 Group: System/Configuration/Other
 Url: http://svn.mandriva.com/svn/soft/transfugdrake
@@ -19,6 +20,7 @@ Windows to Mandriva Linux.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %make
