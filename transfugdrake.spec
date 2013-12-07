@@ -4,7 +4,7 @@
 Summary: Migration wizard
 Name: %{name}
 Version: %{version}
-Release: 10
+Release: 11
 Source0: %{name}-%{version}.tar.lzma
 License: GPL
 Group: System/Configuration/Other
