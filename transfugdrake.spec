@@ -8,7 +8,7 @@ Release: 20
 Source0: %{name}-%{version}.tar.lzma
 License: GPL
 Group: System/Configuration/Other
-Url: http://svn.mandriva.com/svn/soft/transfugdrake
+Url: https://svn.mandriva.com/svn/soft/transfugdrake
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: migration-assistant
