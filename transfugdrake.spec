@@ -13,6 +13,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: migration-assistant
 
+BuildRequires:	make
 %description
 Transfugdrake is a wizard to migrate documents and settings from
 Windows to Mandriva Linux.
